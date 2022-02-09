@@ -9,7 +9,7 @@ const animation = {
 };
 // Change your display name on tha landing display
 const header = {
-  name: "a Human",
+  name: "Akshay Thakur",
 };
 const background = {
   // Options: Snow or Particle
@@ -20,7 +20,7 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. ",
+    "I am a full-stack web developer. I have built many web applications using MERN Stack.",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
@@ -51,31 +51,31 @@ const skillsBar = [
     // svg: '',
     faClass: "fab fa-node",
   },
-  {
-    name: "Python",
-    // svg: '',
-    faClass: "fab fa-python",
-  },
-  {
-    name: "Java",
-    // svg: '',
-    faClass: "fab fa-java",
-  },
-  {
-    name: "PHP",
-    // svg: '',
-    faClass: "fab fa-php",
-  },
+  // {
+  //   name: "Python",
+  //   // svg: '',
+  //   faClass: "fab fa-python",
+  // },
+  // {
+  //   name: "Java",
+  //   // svg: '',
+  //   faClass: "fab fa-java",
+  // },
+  // {
+  //   name: "PHP",
+  //   // svg: '',
+  //   faClass: "fab fa-php",
+  // },
   {
     name: "Database",
     // svg: '',
     faClass: "fas fa-database",
   },
-  {
-    name: "AWS",
-    // svg: '',
-    faClass: "fab fa-aws",
-  },
+  // {
+  //   name: "AWS",
+  //   // svg: '',
+  //   faClass: "fab fa-aws",
+  // },
 ];
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
@@ -129,26 +129,26 @@ const projects = [
 // You can omit freely anything if you dont have it
 // To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
 const section4Title = "Miscellaneous";
-const miscellaneous = [
-  {
-    // Add image in './styles/images.css' in #misc1
-    id: "misc1",
-    name: "Miscellaneous 1",
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #misc2
-    id: "misc2",
-    name: "Miscellaneous 2",
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #misc3
-    id: "misc3",
-    name: "Miscellaneous 3",
-    url: "https://github.com/kaustubhai",
-  },
-];
+// const miscellaneous = [
+//   {
+//     // Add image in './styles/images.css' in #misc1
+//     id: "misc1",
+//     name: "Miscellaneous 1",
+//     url: "https://github.com/kaustubhai",
+//   },
+//   {
+//     // Add image in './styles/images.css' in #misc2
+//     id: "misc2",
+//     name: "Miscellaneous 2",
+//     url: "https://github.com/kaustubhai",
+//   },
+//   {
+//     // Add image in './styles/images.css' in #misc3
+//     id: "misc3",
+//     name: "Miscellaneous 3",
+//     url: "https://github.com/kaustubhai",
+//   },
+// ];
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
 // To get your own jotform link, go to https://formspree.io/
 // If you hacve the link already, paste it in the contactUrl below
@@ -177,7 +177,7 @@ export {
   about,
   skillsBar,
   projects,
-  miscellaneous,
+  // miscellaneous,
   contact,
   social,
   section2title,

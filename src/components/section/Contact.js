@@ -12,8 +12,8 @@ const Contact = () => {
                 </div>
                 </>
                 <div className="container">
-            <div className="git-cont row">
-                <div className="col-12 col-sm-6 half">
+            <div className="d-flex justify-content-center git-cont row">
+                {/* <div className="col-12 col-sm-6 half">
                     <form action={contact.contactUrl ? contact.contactUrl : "https://formspree.io"} method={contact.contactUrl ? "POST" : "GET"}>
                         <input type="text" id="fname" name="firstname" placeholder="Your name" required></input>
                         <input type="mail" id="mailid" name="Email" placeholder="Email Address" required></input>
@@ -21,7 +21,7 @@ const Contact = () => {
                         <textarea id="msg" name="message" placeholder="Message" required></textarea>
                         <button style={{cursor: 'pointer'}} type="submit">Send Message</button>
                     </form>
-                </div>
+                </div> */}
                 <div className="col-12 col-sm-6 half">
                     <p className="lead">
                         {contact.pitch}        
