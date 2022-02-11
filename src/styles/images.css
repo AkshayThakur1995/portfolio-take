@@ -1,43 +1,47 @@
-
 /* Add your profile image here */
-.Photo{
-    background-image: url('https://images.pexels.com/photos/3799821/pexels-photo-3799821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+
+.profilephoto {
+  width: 500px;
 }
 /* Projects Photo */
-.project1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+one');
-    cursor: none;    
+.project1 {
+  background-image: url("https://lh3.googleusercontent.com/gzK1wLrTya-ZpZ4hFg_RWEy0DT6GgFLxP3SHurvma9THIHADpM34hdJoB5SRcUZgbJ7hviK4zYyIpHIX4xsbCLrWD2Cavmehet-HtF6nnL0L4u4vVeiw-Eaw0PaIKcvxzXchW72w9EOygnfEcZVdpcH4mOp-3E6pUHc4jGkNOb7PjDU8KS1r2XFm0CSlvk7HRrxeGR_8XOZCocIoCTnAVTXtysTKWrJqWsAnbGWqhcCeFQ8KC3GoOEyjKQooiXBlgeO5nJirAMSuYJimSatMjyZMlYG1NA3qX17uPtRmO_i-lA_6RcAgUzSTPCVIrt2glB9INhQCHGzc8Qp2orGlDJjpwuoRbcwNfi5islpXxb9bGG612-yBNkFQU862ImicvLUgv12uUz5jxAJQoT2FL3lw10jMalbhH9M28UDRjHRQJO_ker_rNnzH-TnDKOiOmJAz2UoCRtI3xIEyR0yRCb--u-4z3QyyWqRnL1grS6R-E6WsSfs_8OvGUYu5Cx6KK_NAwONiXNDO3-wAiInS17QUFfVjBBiZZW7aqY1MWAnyaKWmFjI_NUVBaLOUSQG9nqd2sm4tn9AWI_TtyA-IvNWzhx1pg0KW7QmtsARzie3b6Er30TJpwclpMtXa6Qx24_dQyBn_KU2HdQKLNW_lc352zTtMdq0B2_FWUNwVWKvzbLxsjJqjiccoLwVkDA43bdy_YGeDCqgqgl4aXf2S5g=w1917-h911-no?authuser=0");
+  cursor: none;
 }
-.project2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+two');
-    cursor: none;
+.project2 {
+  background-image: url("https://lh3.googleusercontent.com/QDI5R0oACo_371gwp-qxCue5-BKzz2pR46Z1yETSnuTPmOewHgOLnu9OnshG1X2AYei9O9kLgQmC5PIR0PRvV623VH2_LAe0yO1Np-ISZHl2gfualCO9t45gmVb4USlPSBU5ZAEULO0wV9h0zm7edXhKx3M1mcMC8biOoGhHglgjVWBP002wS72nwvmd4mFhSOAdAiuAw3aIOizEKsMOdirmnw_bfJT7PwIoXEn4loIuC2juQKlpZ3OSMSdQYT1icW8Hlm5we-YflAwx5ShOx10OOU2bbcjmnmIohgewL-Z3uAdtDV33-K5RA2k6qxPYTfAgqHjbX8qKWAapHfl4cR4hST0KWwxip4P4K_QxqLmx_V0qpLdirtzlDbRvqeYLcNcO8AEf6I5Sx3MKH5fJxp86dTagYtVr2KsmIxEvm_mJq5Oh88GNJBm7tc87FP3aM5tRpD9UUHegEiXwj72Ezem-sveaPej_Sv9IhK90P8_HBlEAna9VOjcMc6LHIUGx3ioHVJoJNe-4C5Dfx9V3mnjLry6qNBB1CprLMBZNIwz0RIsudeSwfxjytQHfG7Goq0HnvYfnowlUkWWfsWVpI9BMGGODvpSpMqzOO5gglbCc1lYdy1mayy7JarthH2XimAUEhGrWKmHIlOGxltMZBERxgEIGc2FoK9LSOujDWtn7AysIDn8UuZHoLWiBK_RhtUiBqC8gbYHA1uN__0NeoA=w1871-h871-no?authuser=0");
+  cursor: none;
 }
-.project3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+three');
-    cursor: none;
+.project3 {
+  background-image: url("https://via.placeholder.com/400x600.png?text=Project+three");
+  cursor: none;
 }
-.project4{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+four');
-    cursor: none;
+.project4 {
+  background-image: url("https://via.placeholder.com/400x600.png?text=Project+four");
+  cursor: none;
 }
-.project5{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+five');
-    cursor: none;
+.project5 {
+  background-image: url("https://via.placeholder.com/400x600.png?text=Project+five");
+  cursor: none;
 }
-.project6{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+six');
-    cursor: none;
+.project6 {
+  background-image: url("https://via.placeholder.com/400x600.png?text=Project+six");
+  cursor: none;
 }
 /* Miscelaneous Activities photo */
-.misc1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+one');
-    cursor: none;
+.misc1 {
+  background-image: url("https://via.placeholder.com/400x600.png?text=Miscellaneous+one");
+  cursor: none;
 }
-.misc2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+two');
-    cursor: none;
+.misc2 {
+  background-image: url("https://via.placeholder.com/400x600.png?text=Miscellaneous+two");
+  cursor: none;
 }
-.misc3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+three');
-    cursor: none;
+.misc3 {
+  background-image: url("https://via.placeholder.com/400x600.png?text=Miscellaneous+three");
+  cursor: none;
+}
+
+.port {
+  margin-top: 300px;
 }

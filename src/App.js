@@ -7,7 +7,8 @@ import Contact from "./components/section/Contact";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { animation } from "./profile";
-
+import Navbar from "./components/section/navbar"
+import "./styles/images.css"
 function App() {
   useEffect(() => {
     AOS.init({
@@ -20,6 +21,7 @@ function App() {
 
   return (
     <div className="App">
+      <Navbar />
       <Header />
       <Particles />
       <About />

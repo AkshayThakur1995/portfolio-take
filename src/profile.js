@@ -20,7 +20,9 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    "I am a full-stack web developer. I have built many web applications using MERN Stack.",
+    "I am a full-stack web developer. I have built many web applications using MERN Stack. I love learning new technologies. I work well both as an individual contributor and also as a team member."
+
+ 
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
@@ -41,21 +43,21 @@ const skillsBar = [
     // svg: '',
     faClass: "fab fa-js",
   },
-  {
-    name: "SASS",
-    // svg: '',
-    faClass: "fab fa-sass",
-  },
+  // {
+  //   name: "SASS",
+  //   // svg: '',
+  //   faClass: "fab fa-sass",
+  // },
   {
     name: "Node",
     // svg: '',
     faClass: "fab fa-node",
   },
-  // {
-  //   name: "Python",
-  //   // svg: '',
-  //   faClass: "fab fa-python",
-  // },
+  {
+    name: "React",
+    // svg: '',
+    faClass: "fab fa-react",
+  },
   // {
   //   name: "Java",
   //   // svg: '',
@@ -80,50 +82,36 @@ const skillsBar = [
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
 // To Add a Project, copy any one below and paste it after the last comma and increment the id's project number
-const section3Title = "Past Projects";
+const section3Title = "Projects";
 const projects = [
   {
     // Add image in './styles/images.css' in #project1
     id: "project1",
-    name: "Project 1",
+    name: "H&M Inspired",
     skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    url: "https://github.com/AkshayThakur1995",
+    git:"https://github.com/AkshayThakur1995/H-and-M-Project",
+    demo:"https://akshaythakur1995.github.io/H-and-M-Project/",
+    des:"H&M is a clothing website,known for its fast-fashion clothing for men, women, teenagers, and children."
   },
   {
     // Add image in './styles/images.css' in #project2
     id: "project2",
-    name: "Project 2",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "PluralSight Clone",
+    skills: ["HTML, CSS, JS, Nodejs, ejs"],
+    url: "https://github.com/AkshayThakur1995",
+    git:"https://github.com/AkshayThakur1995/pluralsight-backend",
+    demo:"https://pluralsight.vercel.app/",
+    des:"Pluralsight offers a variety of video training courses for software developers, IT administrators, and creative professionals "
   },
   {
     // Add image in './styles/images.css' in #project3
     id: "project3",
     name: "Project 3",
     skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #project4
-    id: "project4",
-    name: "Project 4",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #project5
-    id: "project5",
-    name: "Project 5",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #project6
-    id: "project6",
-    name: "Project 6",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
+    url: "https://github.com/AkshayThakur1995",
+    des:""
+  }
 ];
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
@@ -152,22 +140,22 @@ const section4Title = "Miscellaneous";
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
 // To get your own jotform link, go to https://formspree.io/
 // If you hacve the link already, paste it in the contactUrl below
-const section5Title = "Get in Touch";
+const section5Title = "Say Hi!";
 const contact = {
   pitch:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
+    "Feel free to get in touch and making somethig amazing. Looking forward to working with you",
   copyright: "Kaustubh Mishra",
   contactUrl: "",
 };
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
-  github: "https://github.com",
+  github: "https://github.com/AkshayThakur1995",
   facebook: "https://facebook.com",
   // twitter: "https://twitter.com",
   instagram: "https://instagram.com",
-  linkedin: "https://linkedin.com",
-  resume: "https://novoresume.com/",
+  linkedin: "https://www.linkedin.com/in/akshay-thakur-99619a217/",
+  resume: "https://drive.google.com/file/d/1gTUdNydvwg-ks1pb3ahuQFUxIl3QV4NB/view?usp=sharing",
 };
 // Dont change anything here
 export {

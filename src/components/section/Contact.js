@@ -35,12 +35,13 @@ const Contact = () => {
                     {social.github && <a title="Visit Github profile" rel="noopener noreferrer" target="_blank" href={social.github}><i className="fab fa-github"></i></a>}<br/>
                 </div>
                     {social.resume && <a title="Download Resume" href={social.resume} download><i className="fas fa-download"></i></a>}
+                    <p><strong>Email:</strong>  <a href="mailto:akshaymarx08@gmail.com" target="_blank">akshaymarx08@gmail.com</a> </p>
                 </div>
                 </div>
             </div>
             </div>
+            <p id="not-dark" className="Copy">Inspired by <strong>{contact.copyright}</strong></p>
         </div>
-            <p id="not-dark" className="Copy">2020 © Copyright <strong>{contact.copyright}</strong>. All Rights Reserved</p>
         </div>
     )
     
