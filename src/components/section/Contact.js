@@ -34,7 +34,7 @@ const Contact = () => {
                     {social.instagram && <a title="Visit Instagram profile" rel="noopener noreferrer" target="_blank" href={social.instagram}><i className="fab fa-instagram"></i></a>}
                     {social.github && <a title="Visit Github profile" rel="noopener noreferrer" target="_blank" href={social.github}><i className="fab fa-github"></i></a>}<br/>
                 </div>
-                    {social.resume && <a title="Download Resume" href={social.resume} download><i className="fas fa-download"></i></a>}
+                    {social.resume && <a title="Download Resume" href={social.resume} download target="_blank"><i className="fas fa-download"></i></a>}
                     <p><strong>Email:</strong>  <a href="mailto:akshaymarx08@gmail.com" target="_blank">akshaymarx08@gmail.com</a> </p>
                 </div>
                 </div>

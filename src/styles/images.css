@@ -1,15 +1,99 @@
 /* Add your profile image here */
-
 .profilephoto {
-  width: 500px;
+  width: 400px;
+  height: 300px;
 }
+.git-link {
+  color: white;
+}
+.icon-pro {
+  font-size: 36px;
+  margin: 24px;
+}
+.icon-pro:hover {
+  color: #ff4753 !important;
+}
+.git-button {
+  margin-right: 24px;
+  font-size: 24px;
+  align-items: center;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  background-color: #16437e;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.demo-link {
+  color: white;
+}
+.demo-button {
+  font-size: 24px;
+  align-items: center;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  background-color: #69a525;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
 /* Projects Photo */
 .project1 {
-  background-image: url("https://lh3.googleusercontent.com/gzK1wLrTya-ZpZ4hFg_RWEy0DT6GgFLxP3SHurvma9THIHADpM34hdJoB5SRcUZgbJ7hviK4zYyIpHIX4xsbCLrWD2Cavmehet-HtF6nnL0L4u4vVeiw-Eaw0PaIKcvxzXchW72w9EOygnfEcZVdpcH4mOp-3E6pUHc4jGkNOb7PjDU8KS1r2XFm0CSlvk7HRrxeGR_8XOZCocIoCTnAVTXtysTKWrJqWsAnbGWqhcCeFQ8KC3GoOEyjKQooiXBlgeO5nJirAMSuYJimSatMjyZMlYG1NA3qX17uPtRmO_i-lA_6RcAgUzSTPCVIrt2glB9INhQCHGzc8Qp2orGlDJjpwuoRbcwNfi5islpXxb9bGG612-yBNkFQU862ImicvLUgv12uUz5jxAJQoT2FL3lw10jMalbhH9M28UDRjHRQJO_ker_rNnzH-TnDKOiOmJAz2UoCRtI3xIEyR0yRCb--u-4z3QyyWqRnL1grS6R-E6WsSfs_8OvGUYu5Cx6KK_NAwONiXNDO3-wAiInS17QUFfVjBBiZZW7aqY1MWAnyaKWmFjI_NUVBaLOUSQG9nqd2sm4tn9AWI_TtyA-IvNWzhx1pg0KW7QmtsARzie3b6Er30TJpwclpMtXa6Qx24_dQyBn_KU2HdQKLNW_lc352zTtMdq0B2_FWUNwVWKvzbLxsjJqjiccoLwVkDA43bdy_YGeDCqgqgl4aXf2S5g=w1917-h911-no?authuser=0");
+  background-image: url("https://i.ibb.co/z2sKy3J/H-M-image.jpg");
   cursor: none;
 }
 .project2 {
-  background-image: url("https://lh3.googleusercontent.com/QDI5R0oACo_371gwp-qxCue5-BKzz2pR46Z1yETSnuTPmOewHgOLnu9OnshG1X2AYei9O9kLgQmC5PIR0PRvV623VH2_LAe0yO1Np-ISZHl2gfualCO9t45gmVb4USlPSBU5ZAEULO0wV9h0zm7edXhKx3M1mcMC8biOoGhHglgjVWBP002wS72nwvmd4mFhSOAdAiuAw3aIOizEKsMOdirmnw_bfJT7PwIoXEn4loIuC2juQKlpZ3OSMSdQYT1icW8Hlm5we-YflAwx5ShOx10OOU2bbcjmnmIohgewL-Z3uAdtDV33-K5RA2k6qxPYTfAgqHjbX8qKWAapHfl4cR4hST0KWwxip4P4K_QxqLmx_V0qpLdirtzlDbRvqeYLcNcO8AEf6I5Sx3MKH5fJxp86dTagYtVr2KsmIxEvm_mJq5Oh88GNJBm7tc87FP3aM5tRpD9UUHegEiXwj72Ezem-sveaPej_Sv9IhK90P8_HBlEAna9VOjcMc6LHIUGx3ioHVJoJNe-4C5Dfx9V3mnjLry6qNBB1CprLMBZNIwz0RIsudeSwfxjytQHfG7Goq0HnvYfnowlUkWWfsWVpI9BMGGODvpSpMqzOO5gglbCc1lYdy1mayy7JarthH2XimAUEhGrWKmHIlOGxltMZBERxgEIGc2FoK9LSOujDWtn7AysIDn8UuZHoLWiBK_RhtUiBqC8gbYHA1uN__0NeoA=w1871-h871-no?authuser=0");
+  background-image: url("https://i.ibb.co/whvtV02/plural-Sight.jpg");
   cursor: none;
 }
 .project3 {

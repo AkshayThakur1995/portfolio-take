@@ -92,7 +92,7 @@ const projects = [
     url: "https://github.com/AkshayThakur1995",
     git:"https://github.com/AkshayThakur1995/H-and-M-Project",
     demo:"https://akshaythakur1995.github.io/H-and-M-Project/",
-    des:"H&M is a clothing website,known for its fast-fashion clothing for men, women, teenagers, and children."
+    des:"H&M is a clothing website, User can add items to the cart, use filters to check items by Price and category, login and make payments"
   },
   {
     // Add image in './styles/images.css' in #project2
@@ -102,16 +102,16 @@ const projects = [
     url: "https://github.com/AkshayThakur1995",
     git:"https://github.com/AkshayThakur1995/pluralsight-backend",
     demo:"https://pluralsight.vercel.app/",
-    des:"Pluralsight offers a variety of video training courses for software developers, IT administrators, and creative professionals "
+    des:"Pluralsight offers a variety of video training courses for software developers, Have added functionality to select courses, watch videos, buy premium membership "
   },
-  {
-    // Add image in './styles/images.css' in #project3
-    id: "project3",
-    name: "Project 3",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/AkshayThakur1995",
-    des:""
-  }
+  // {
+  //   // Add image in './styles/images.css' in #project3
+  //   id: "project3",
+  //   name: "Project 3",
+  //   skills: ["HTML, CSS, JS"],
+  //   url: "https://github.com/AkshayThakur1995",
+  //   des:""
+  // }
 ];
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
