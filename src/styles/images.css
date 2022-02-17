@@ -13,6 +13,21 @@
 .icon-pro:hover {
   color: #ff4753 !important;
 }
+.descrp {
+  margin-top: 24px;
+  text-align: center;
+}
+.icon-list {
+  list-style: none;
+  text-align: center;
+}
+.title-div{
+  text-align: center;
+}
+.btn-div {
+  display: flex;
+  justify-content: center;
+}
 .git-button {
   margin-right: 24px;
   font-size: 24px;
