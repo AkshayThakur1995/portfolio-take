@@ -25,7 +25,7 @@ const Project = ({id, name, url, skills, git, demo, des}) => {
             <i className='fab fa-css3 icon-pro'></i>
             <i className='fab fab fa-node icon-pro'></i>
             </li>
-            
+
         </div>
    
       

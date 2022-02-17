@@ -40,7 +40,7 @@ const Contact = () => {
                 </div>
             </div>
             </div>
-            <p id="not-dark" className="Copy">Inspired by <strong>{contact.copyright}</strong></p>
+            <p className='end-credit'> <strong>   Made by Akshay Thakur. </strong> Template by Kaustubh Mishra </p>
         </div>
         </div>
     )
