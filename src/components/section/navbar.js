@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { contact, section5Title, social } from '../../profile'
+import "../../styles/images.css"
 export default function Navbar() {
     const scrollTo = () => {
         window.scrollTo({
@@ -32,10 +33,11 @@ export default function Navbar() {
       <li class="nav-item ">
         <a class="nav-link h3"  href="#project">  Projects</a>
       </li>
-      <li class="nav-item">
-        {/* <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> */}
-      </li>
+      
     </ul>
+    <li class="nav-item alone">
+      {social.resume && <a title="Download Resume" className='nav-res' href={social.resume} download target="_blank"> Resume <i className="fas fa-download res"></i></a>}
+      </li>
   </div>
 </nav>
   )
