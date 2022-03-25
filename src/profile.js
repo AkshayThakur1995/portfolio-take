@@ -104,14 +104,16 @@ const projects = [
     demo:"https://pluralsight.vercel.app/",
     des:"Pluralsight offers a variety of video training courses for software developers, Have added functionality to select courses, watch videos, buy premium membership "
   },
-  // {
-  //   // Add image in './styles/images.css' in #project3
-  //   id: "project3",
-  //   name: "Project 3",
-  //   skills: ["HTML, CSS, JS"],
-  //   url: "https://github.com/AkshayThakur1995",
-  //   des:""
-  // }
+  {
+    // Add image in './styles/images.css' in #project3
+    id: "project3",
+    name: "Epic Games",
+    skills: ["HTML, CSS, React, MongoDb"],
+    url: "https://github.com/AkshayThakur1995",
+    git:"https://github.com/cnu01/Epic-Clone",
+    demo:"https://epic-game-cw.herokuapp.com/",
+    des:"A website for gamers to explore and buy Games. Filter games according to price, genre, Watch Demos of Games and details"
+  }
 ];
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
